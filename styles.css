@@ -1,0 +1,268 @@
+
+.button2 {
+    display: inline-block;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  }
+  
+  .button2:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+  }
+  
+  .button2:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button2:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: #009087;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button2:hover {
+    color: #ffffff;
+    border: 1px solid #009087;
+  }
+  
+  .button2:hover:before {
+    top: -35%;
+    background-color: #009087;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  
+  .button2:hover:after {
+    top: -45%;
+    background-color: #009087;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  
+  section
+  {
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 110px;
+    background-image: url(https://www.hindustantimes.com/ht-img/img/2023/08/25/1600x900/international_dog_day_1692974397743_1692974414085.jpg);
+  }
+  .don1
+  {
+    height: 470px;
+    
+  }
+
+
+
+button {
+    background: #fbca1f;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+  }
+  
+  button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }
+.card1
+{
+  text-align: justify;
+  
+}
+
+
+  footer
+{
+  width: 100%;
+  height: 500px;
+  color: whitesmoke;
+}
+ul
+{
+  list-style: none;
+}
+p{
+  text-align: justify;
+}
+.head
+{
+  position: fixed;
+  background-color: whitesmoke;
+  width: 100%;
+  z-index: 1;
+  opacity: .9;
+}
+.sec3
+{
+  background-color: gainsboro;
+  height: 1300px;
+  align-content: space-evenly;
+}
+.don2{
+  background-color: white;
+  width: 600px;
+  height: 1100px;
+  margin: 50px;
+  
+}
+.don2img{
+  width: 500px;
+  margin-left: 30px;
+  margin-top: -50px;
+}
+.donbtn
+{
+  position: relative;
+  left: 300px;
+}
+.donp
+{
+  padding: 20px;
+  text-align: justify;
+}
+.addclick
+{
+  width: 600px;
+  margin: 10px;
+  height: 700px; 
+  color: white; 
+  padding: 50px;
+  border-radius: 50px;
+}
+.tip
+{
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+}
+.tipscol1
+{
+  background-image: url(https://www.amtmindia.org/wp-content/uploads/2024/07/Blog-Web-1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.tipscol2
+{
+  background-image: url(https://www.amtmindia.org/wp-content/uploads/2024/07/AMTM-Blog-Sep-2048x1072.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.tipscol3
+{
+  background-image: url(https://www.amtmindia.org/wp-content/uploads/2024/07/AMTM-Blog-Sep-02-2048x1072.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.tipc
+{
+  position: relative;
+  top: 200px;
+}
+.banner
+{
+  background-color: rgba(255,197,45,255);
+  align-content: center;
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bannerlogo
+{
+  position: relative;
+  top: -25%;
+  left: 5%;
+}
+.bannercontent
+{
+  width: 600px;
+  position: relative;
+  top: -50%;
+  left: 48%;
+}
+.contribution
+{
+  margin: 20px;
+  position: relative;
+}
+.contributioncol1
+{
+  background-image: url(https://www.amtmindia.org/wp-content/uploads/2021/09/Donate.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 700px;
+}
+.contributioncol2
+{
+  background-image: url(https://www.amtmindia.org/wp-content/uploads/2021/10/Volunteer-AMTM.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 700px;
+  color: #ffffff;
+}
+.contributioncol3
+{
+  background-image: url(https://www.amtmindia.org/wp-content/uploads/2021/10/adopt-a-dog-cat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 700px;
+}
+.contributionc
+{
+  position: relative;
+  width: 250px;
+  height: 550px;
+}
+.paracon{
+  position: relative;
+  top: 250px;
+}
+.contibtn
+{
+  position: relative;
+}
